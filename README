@@ -1,0 +1,49 @@
+Recipe Suggestion Generator
+The Recipe Suggestion Generator is a Streamlit app designed to inspire culinary creativity. It leverages Cohere's powerful language model to generate unique recipe suggestions based on a chosen cuisine type. Additionally, it proposes catchy names for each suggested recipe, adding a fun and personalized touch.
+
+Features
+Cuisine-Based Recipe Generation: Input a cuisine type to receive tailored recipe suggestions.
+Creative Recipe Names: Each recipe comes with a suggested catchy name.
+Adjustable Creativity Level: Control the creativity of the suggestions with an adjustable slider.
+
+Installation
+Clone the Repository
+
+bash
+Copy code
+git clone [repository-url]
+cd [repository-folder]
+Set Up a Virtual Environment (Optional but recommended)
+
+bash
+Copy code
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+Install Dependencies
+
+bash
+Copy code
+pip install -r requirements.txt
+Environment Variables
+
+You will need a Cohere API key to use this app.
+Set up the API key as an environment variable CO_KEY.
+Usage
+Run the Streamlit App
+
+bash
+Copy code
+streamlit run app.py
+Using the App
+
+Enter a cuisine type in the input field.
+Adjust the number of recipes and the level of creativity as desired.
+Click on "Generate Recipe" to receive your recipe suggestions and their names.
+Contributing
+Contributions to the Recipe Suggestion Generator are welcome. Please read CONTRIBUTING.md for guidelines on how to contribute to this project.
+
+
+
+Acknowledgments
+Cohere for their powerful language generation model.
+The Streamlit team for their easy-to-use app framework.
